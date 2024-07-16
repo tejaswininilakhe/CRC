@@ -29,18 +29,18 @@ extern "C" {
 
 void CRC_Init(void);
 
-/**
+/*****************************************************************************
  * This function makes a CRC8 calculation on Length data bytes with SAEJ1850 parameters
  *
  * RETURN VALUE: 8 bit result of CRC calculation
- */
+ *****************************************************************************/
 uint8_t CRC_CalculateCRC8(const uint8_t *Buffer, uint16_t Length);
 
-/**
+/*************************************************************************
  * This function makes a CRC16 calculation on Length data bytes
  *
  * RETURN VALUE: 16 bit result of CRC calculation
- */
+ ************************************************************************/
 uint16_t CRC_CalculateCRC16(const uint8_t *Buffer, uint16_t Length);
 
 /**
