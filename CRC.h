@@ -1,6 +1,6 @@
 /*
   CRC.h - Simple library to calculate 8-, 16-, and 32-Bit CRC
-
+/**********************************************************************/
   Copyright (c) 2018 Patrick F.
 
   This program is free software: you can redistribute it and/or modify
