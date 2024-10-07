@@ -42,7 +42,7 @@ static uint32_t CRC_ReverseBitOrder32(uint32_t value);
 	static uint32_t CRC32Table[256u];
 #endif
 
-
+/*Initialiasation function for 8, 16, 32 bit CRC Table*/
 void CRC_Init(void)
 {
     CRC_CalculateCRC8Table();
