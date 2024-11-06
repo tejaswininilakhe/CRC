@@ -49,7 +49,7 @@ void CRC_Init(void)
     CRC_CalculateCRC16Table();
     CRC_CalculateCRC32Table();
 }
-
+/*********************************************************************************/
 // Calculation of CRC for 8 Bit data
 uint8_t CRC_CalculateCRC8(const uint8_t *Buffer, uint16_t Length)
 {
