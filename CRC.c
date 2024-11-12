@@ -103,6 +103,7 @@ uint8_t CRC_CalculateCRC8(const uint8_t *Buffer, uint16_t Length)
 }
 
 /*************************************************************/
+// Calculation of CRC for 8 Bit data
 uint16_t CRC_CalculateCRC16(const uint8_t *Buffer, uint16_t Length)
 {
     uint16_t retVal = 0u;
