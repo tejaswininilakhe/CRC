@@ -220,7 +220,7 @@ uint32_t CRC_CalculateCRC32(const uint8_t *Buffer, uint16_t Length)
 
     return retVal;
 }
-
+/**********************************************************************************/
 
 static void CRC_CalculateCRC8Table(void)
 {
