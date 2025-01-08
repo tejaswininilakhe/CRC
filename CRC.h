@@ -53,6 +53,6 @@ uint32_t CRC_CalculateCRC32(const uint8_t *Buffer, uint16_t Length);
 #ifdef __cplusplus
 }
 #endif
-
+/****************************************************************************/
 
 #endif // CRC_H_INCLUDED
