@@ -13,7 +13,7 @@ int main(void)
     uint16_t ret1 = CRC_CalculateCRC16(data, 8); //calculate 16 bit data
     uint32_t ret2 = CRC_CalculateCRC32(data, 8); //calculate 32 bit data
         
-    printf("CRC8 : 0x%X\n", ret);
+    printf("CRC8 : 0x%X\n", ret);   //Serial Print
     printf("CRC16: 0x%X\n", ret1);
     printf("CRC32: 0x%X\n", ret2);
         
