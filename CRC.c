@@ -28,7 +28,7 @@ static void CRC_CalculateCRC32Table(void);
 static uint8_t CRC_ReverseBitOrder8(uint8_t value);
 static uint32_t CRC_ReverseBitOrder32(uint32_t value);
 
-/***********************************************************************/
+/**************************************************************************/
 
 #if (CRC_8_MODE == TABLE)
 	static uint8_t CRC8Table[256u];
